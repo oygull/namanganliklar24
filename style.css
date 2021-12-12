@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Rubik', 'Arial', sans-serif;
+}
+.covid-cases {
+    background-color: #F6F6F9;;
+    font-weight: normal;
+   margin: 0px 121px 18px 119px;
+   border-radius: 5px;
+}
+.infected{
+    color: #DB0000;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.recovered{
+   color: #05B135;
+   font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.dead{
+   color: #000000;
+   font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.nav-links{
+    display: flex;
+
+}
+.navLinksItem{
+    list-style: none;
+    margin-left: 3%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #515151;
+    font-weight: 600;
+}
+.prices-list{
+    display: flex;
+}
+.prices-list li{
+    list-style: none;
+    width: 100px;
+    margin-left: 2%;
+}
+.header-part{
+    display: flex;
+}
+.contact-info{
+   display: flex;
+}
+.covid-cases-ul{
+    display: flex;
+}
+.covid-cases-ul li{
+    margin-right: 5%;
+    list-style: none;
+}
+.navLogo{
+    margin: 44px 23px 44px 127px;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+}
+.currency{
+    margin: 44px 300px 49px 17px;
+}
+.tgButton{
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    width: 146px;
+    height: 40px;
+    display: flex;
+    margin: 44px 121px 40px 0px;
+}
+.tgImg{
+    margin: 10px 7px 10px 7px;
+    display: inline;
+}
+.ruLang{
+    margin: 55px 31px 48px 5px;
+}
+.russian{
+    margin: 55px 5px 48px 21px;
+    border-radius: 100%;
+}
+.search{
+    margin: 55px 21px 48px 0px;
+}
+.tgLink{
+    color: white;
+    display: inline;
+}
+.navbar{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 21px 25px 22px 24px;
+    margin: 0px 121px 0px 119px;
+}
+.advertImg{
+    margin: 18px 121px 23px 119px;
+}
+
+.covidCasesList{
+    display: flex;
+}
+.covidIconImg{
+    margin: 44px 25px 44px 25px;
+}
+.covidIconHeading{
+    width: 232px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 42px 12px 41px 0px;
+}
+.infectedImg{
+    margin: 48px 18px 47px 0px;
+}
+.recoveredImg{
+    margin-right: 10px;
+}
+.deadImg{
+    margin-right: 10px;
+}
+.cases{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.covidCasesDiv{
+    margin: 41px 22px 40px 10px;
+}
+.line1{
+    width: 2px;
+    height: 74px;
+    margin: 30px 20px 29px 0px;
+}
+.line2{
+    width: 2px;
+    height: 49px;
+    margin: 42px 30px 42px 0px;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px 100px 0px 119px;
+}
+.newsHeading{
+    width: 380px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: black;
+}
+.newsImg{
+    margin: 20px 20px 11px 0px;
+}
+.newsTime{
+    width: 125px;
+    font-size: 14px;
+  
+    color: #6B6D97;
+    margin: 110px 0px;
+}
+.notification{
+    display: flex;
+    background-color: rgba(239, 186, 84, 0.18);
+    width: 1200px;
+    height: 91px;
+    margin: 54px 121px 38px 119px;
+}
+.notificationText{
+    width: 610px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 33px 239px 32px 0px;
+}
+.bellIcon{
+    margin: 28px 18px 28px 34px;
+}
+.notificationButton{
+    width: 264px;
+    height: 42px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 25px 20px 24px 0px;
+}
+.newsList{
+    display: flex;
+}
+.newsListHeading1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 38px 0px 13px 119px;
+}
+.newsListItem{
+    display: flex;
+}
+.newsListUl{
+    list-style: none;
+}
+.newsHeadings{
+    width: 434px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin: 13px 109px 8px 0px;
+}
+.newsListText{
+    width: 512px;
+    height: 70px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin: 0px 31px 8px  0px;
+}
+.newsListTime{
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    font-size: 14px;
+}
+.newsListImg{
+    margin: 13px 19px 18px 119px;
+}
+.mostFamousNews{
+    background-color: #F6F6F9;
+    border-radius: 5px;
+   width: 386px;
+   height: 542px;
+   list-style: none;
+   margin: 46px 121px 20px 31px;
+}
+.mostFamousNewsHeading{
+    width: 300px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin: 16px 0px 6px 20px;
+}
+.famousNewsText{
+    width: 347px;
+    height: 62px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin: 0px 19px 11px 20px;
+}
+.famousNewsTime{
+    width: 117px;
+    height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    margin: 0px 0px 14px 20px;
+}
+.newsLine{
+    margin: 14px 20px 18px 20px;
+}
+.usellAdvert{
+    margin: 40px 12px 38px 0px;
+}
+.appAdvert{
+    display: flex;
+    background-color:#F6F6F9;
+    border-radius: 5px;
+    margin: 38px 121px 38px 119px;
+}
+.phoneApp{
+    margin: 37px 0px 0px 19px;
+}
+.appText{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #295093;
+    margin: 64px 13px 10px 0px;
+}
+.appParagraph{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin: 0px 14px 66px 0px;
+}
+.appImg{
+    margin: 82px 20px 82px 0px;
+}
+.footerPart1{
+    display: flex;
+}
+footer{
+    background-color: #295093;
+}
+.footerNav{
+    width: 194px;
+    height: 38px;
+    background-color:  #133C82;
+    border-radius: 5px;
+    margin: 18px 0px 20px 119px;
+}
+.footerNavImg{
+    margin: 11px 12px 6px 9px;
+}
+.footerNavText{
+    width: 680px;
+    height: 19px;
+    margin: 31px 17px 26px 168px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.footerButton{
+    width: 132px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 20px 121px 18px 17px;
+}
+.tgIconFooter{
+    margin: 9px 6px 9px 9px;
+}
+.footerLine{
+    margin: 26px 121px 12px 119px;
+}
+.footerButtonTg{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+}
+.footerPart2{
+    display: flex;
+}
+.aboutWeb{
+    width: 365px;
+    height: 121px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 12px 111px 13px 118px;
+}
+.aboutWebHeading{
+   margin-bottom: 10px;
+}
+.footerList1{
+    width: 163px;
+    height: 106px;
+    list-style: none;
+    margin: 12px 115px 38px 20px;
+}
+.footerList2{
+    width: 225px;
+    height: 106px;
+    list-style: none;
+    margin: 12px 115px 68px 0px;
+}
+.footerListItem{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.listItem{
+    margin: 10px 0px;
+}
+.aboutWebText{
+    line-height: 20px;
+    color: #FFFFFF;
+}
